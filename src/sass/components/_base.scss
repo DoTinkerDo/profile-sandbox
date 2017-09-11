@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: #001f3f;
+  text-decoration: none;
+
+  @include on-event {
+    color: #001f3f;
+    text-decoration: underline;
+  }
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

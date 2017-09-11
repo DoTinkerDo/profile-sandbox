@@ -1,0 +1,55 @@
+/*
+
+  Buttons
+Usage ->
+  class="btn btn-default"
+  class="btn btn-small"
+
+*/
+
+button {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  font: normal normal normal 14px/1.4em 'Avenir Light', Avenir Light, Arial, sans-serif;
+  background-color: #ec1928;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #ffffff;
+  color: #ec1928;
+}
+
+.btn-default {
+  height: 40px;
+  min-height: 19px;
+  width: 142px;
+  margin-left: -9px;
+}
+
+.btn-small {
+  height: 27px;
+  min-height: 19px;
+  width: 71px;
+}
+
+.btn-approve {
+  background-color: #ec1928; /* Change. */
+  color: #ffffff;
+}
+
+.btn-deny {
+  background-color: #ec1928;
+  color: #ffffff;
+  margin-left: 10px; /* Change. */
+}
